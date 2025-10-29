@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #FFC0CB;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+nav {
+    margin-top: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: opacity 0.2s;
+}
+nav a:hover {
+    opacity: 0.8;
+}
+.container {
+    max-width: 500px;
+    background: white;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+form {
+    text-align: left;
+}
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+button, a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFC0CB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.2s;
+    margin-top: 20px;
+}
+button:hover, a.button:hover {
+    background-color: #0056b3;
+}
+.message {
+    margin-top: 15px;
+    color: #d33;
+}
